@@ -1,0 +1,5 @@
+/*!
+ * Flickity imagesLoaded v2.0.0
+ * enables imagesLoaded option for Flickity
+ */(function(window2,factory2){typeof define=="function"&&define.amd?define(["flickity/js/index","imagesloaded/imagesloaded"],function(Flickity,imagesLoaded){return factory2(window2,Flickity,imagesLoaded)}):typeof module=="object"&&module.exports?module.exports=factory2(window2,require("flickity"),require("imagesloaded")):window2.Flickity=factory2(window2,window2.Flickity,window2.imagesLoaded)})(window,function(window2,Flickity,imagesLoaded){"use strict";Flickity.createMethods.push("_createImagesLoaded");var proto=Flickity.prototype;return proto._createImagesLoaded=function(){this.on("activate",this.imagesLoaded)},proto.imagesLoaded=function(){if(!this.options.imagesLoaded)return;var _this=this;function onImagesLoadedProgress(instance,image){var cell=_this.getParentCell(image.img);_this.cellSizeChange(cell&&cell.element),_this.options.freeScroll||_this.positionSliderAtSelected()}imagesLoaded(this.slider).on("progress",onImagesLoadedProgress)},Flickity});
+//# sourceMappingURL=/cdn/shop/t/2/assets/flickity-imagesloaded.js.map?v=134234441287048334681681394563
