@@ -1763,7 +1763,7 @@ await import("//www.thehollywoodpictures.com/cdn/shopifycloud/shop-js/modules/v2
   <div class="services__filters"><ul>
             
 <li>
-                <a href="services.html#souvenir-photography" class="is-active">
+                <a href="#souvenir-photography" class="is-active" onclick="document.getElementById('souvenir-photography').scrollIntoView({behavior: 'smooth', block: 'start'}); return false;">
                   
                     Souvenir Photography
                   
@@ -1772,7 +1772,7 @@ await import("//www.thehollywoodpictures.com/cdn/shopifycloud/shop-js/modules/v2
 
               
 <li>
-                <a href="services.html#professional-photo-shoots" >
+                <a href="#professional-photo-shoots" onclick="document.getElementById('professional-photo-shoots').scrollIntoView({behavior: 'smooth', block: 'start'}); return false;">
                   
                     
 Professional photo shoots
@@ -1782,7 +1782,7 @@ Professional photo shoots
 
               
 <li>
-                <a href="services.html#events" >
+                <a href="#events" onclick="document.getElementById('events').scrollIntoView({behavior: 'smooth', block: 'start'}); return false;">
                   
                     
 Events
@@ -1792,6 +1792,25 @@ Events
 
               
 </ul></div> 
+
+<style>
+.services__filters a {
+  background-color: #2A2A2A !important;
+  color: #FFFFFF !important;
+}
+.services__filters a.is-active {
+  background-color: #1A1A1A !important;
+  color: #FFFFFF !important;
+}
+.services__filters a:hover {
+  background-color: #1A1A1A !important;
+  color: #FFFFFF !important;
+}
+.services__filters a.is-active:hover {
+  background-color: #1A1A1A !important;
+  color: #FFFFFF !important;
+}
+</style>
 
   <div class="inner__wrapper">
     
@@ -1927,7 +1946,7 @@ Events
                 
                             <div class="ctas">
                               
-                                <p>Sessions starting at $149</p>
+                                <p style="color: #1A1A1A;">Sessions starting at $149</p>
                               
                 
                               
@@ -2046,7 +2065,7 @@ Events
                 
                             <div class="ctas">
                               
-                                <p>Contact us to learn more</p>
+                                <p style="color: #1A1A1A;">Contact us to learn more</p>
                               
                 
                               
