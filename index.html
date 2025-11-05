@@ -465,12 +465,18 @@ await import("//www.thehollywoodpictures.com/cdn/shopifycloud/shop-js/modules/v2
 
   #offCanvasCart .product__name {}
 
-/* Mobile navigation menu font color */
-.offcanvas-menu__menu a,
-.offcanvas-menu__menu-list a,
-.offcanvas-menu__menu-list-inner a,
-.offcanvas-menu__sub-menu a {
-  color: #FFFFFF !important;
+/* Mobile and tablet navigation menu font color */
+@media screen and (max-width: 63.99875em) {
+  .offcanvas-menu__menu a,
+  .offcanvas-menu__menu-list a,
+  .offcanvas-menu__menu-list-inner a,
+  .offcanvas-menu__sub-menu a,
+  .offcanvas-menu__menu .parent-link,
+  .offcanvas-menu__menu .button,
+  .offcanvas-menu__menu a.parent-link,
+  .offcanvas-menu__menu a.button {
+    color: #FFFFFF !important;
+  }
 }
 
   </style>
