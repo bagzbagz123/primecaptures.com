@@ -1688,7 +1688,7 @@ await import("//www.thehollywoodpictures.com/cdn/shopifycloud/shop-js/modules/v2
         <div class="grid-x align-center">
           
 
-          <div class="cell small-12 medium-11">
+          <div class="cell small-11 medium-11">
             
   <div class="inner__wrapper">
 		<div class="portfolio__filters"><ul>
@@ -1722,6 +1722,23 @@ Event Photography</button>
 .portfolio__filters .filter-item.is-active:hover {
   background-color: #1A1A1A !important;
   color: #FFFFFF !important;
+}
+@media screen and (max-width: 39.9em) {
+  .portfolio__filters ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .portfolio__filters .filter-item {
+    font-size: 14px;
+    padding: 8px 16px;
+    white-space: nowrap;
+  }
+  .cell.small-12.medium-11 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 </style>
 
