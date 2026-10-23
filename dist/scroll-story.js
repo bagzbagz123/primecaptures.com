@@ -31,7 +31,7 @@ if (section && 'IntersectionObserver' in window) {
   const updateControl = () => {
     button.hidden = reduced.matches || Boolean(connection?.saveData) || failed;
     button.setAttribute('aria-pressed', String(preference === 'on' && !button.hidden));
-    label.textContent = `Particle motion: ${preference === 'on' ? 'on' : 'off'}`;
+    label.textContent = `Animation: ${preference === 'on' ? 'on' : 'off'}`;
     button.querySelector('path').setAttribute('d', preference === 'on' ? 'M4 3h3v10H4zm5 0h3v10H9z' : 'M5 2v12l9-6z');
     skip.firstChild.textContent = section.dataset.storyLayout ? 'Skip the animation ' : 'See the experience ';
   };

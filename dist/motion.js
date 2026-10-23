@@ -1,5 +1,4 @@
-// Apple HIG principles, translated for the web: brief, optional, interruptible motion.
-// Distances and timing are Prime Capture design choices, not Apple specifications.
+// Brief, interruptible entrances. Content and actions remain visible without animation.
 (() => {
   if (!window.matchMedia || !Element.prototype.animate) return;
 
@@ -12,12 +11,12 @@
 
   function reveal(element, delay = 0, opening = false) {
     if (preference.matches || document.hidden || element.contains(document.activeElement)) return;
-    const distance = opening ? 8 : (compact.matches ? 6 : 12);
+    const distance = opening ? 18 : (compact.matches ? 8 : 20);
     const animation = element.animate([
       { transform: `translateY(${distance}px)` },
       { transform: 'translateY(0)' }
     ], {
-      duration: opening ? 480 : 400,
+      duration: opening ? 700 : 600,
       delay,
       easing,
       fill: 'backwards'
@@ -37,7 +36,9 @@
   // Photography supplies the visual rhythm; copy, prices, and forms stay still.
   const groups = [
     '.experience-story', '.product-media', '.content-image',
-    '.portfolio-opening .photo-open', '.moments-grid .photo-open', '.venue-story .photo-open'
+    '.portfolio-opening .photo-open', '.moments-grid .photo-open', '.venue-story .photo-open',
+    '.experience-photo .photo-open', '.hospitality-photo .photo-open',
+    '.keepsake-collection .photo-open', '.keepsake-glass .photo-open', '.brand-film-poster'
   ];
   const delays = new WeakMap();
   const observer = window.IntersectionObserver ? new IntersectionObserver(entries => {

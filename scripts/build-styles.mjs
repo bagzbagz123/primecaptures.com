@@ -2,7 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 
 // Preserve the existing cascade while serving a single blocking stylesheet.
-const files = ['styles.css', 'brand.css', 'refinements.css', 'measurement.css', 'motion.css', 'interactions.css', 'copper-story.css', 'keepsake-showcase.css', 'earnings-calculator.css', 'brand-film.css', 'workstation.css', 'venue-fit.css', 'daily-report.css', 'experience-refresh.css', 'scroll-story.css', 'mobile-inquiry.css', 'mobile.css'];
+const files = ['styles.css', 'brand.css', 'refinements.css', 'measurement.css', 'motion.css', 'interactions.css', 'copper-story.css', 'keepsake-showcase.css', 'earnings-calculator.css', 'brand-film.css', 'workstation.css', 'venue-fit.css', 'daily-report.css', 'experience-refresh.css', 'scroll-story.css', 'mobile-inquiry.css', 'mobile.css', 'launch.css'];
 const directory = new URL('../dist/', import.meta.url);
 const sources = await Promise.all(files.map(async file => {
   const source = await readFile(new URL(file, directory), 'utf8');
