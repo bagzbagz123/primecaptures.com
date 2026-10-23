@@ -34,6 +34,8 @@ The header and footer use the original Prime Capture logo at the top and bottom 
 
 This repository's `main` branch is connected to the existing Vercel project `primecaptures-com`. Vercel runs `npm run build` and serves `dist/`; API handlers run as Vercel functions. Configure production delivery credentials in Vercel rather than in source control.
 
+For landing-page updates, validate the change, commit it, and push to `origin/main`. Let Vercel deploy from GitHub automatically, then verify the deployment for that commit. Direct CLI production deployments are not the normal release workflow. See `AGENTS.md` for repository instructions.
+
 Local `.env` files, `.vercel`, private originals, design drafts and deployment evidence are excluded from Git. The staff application is maintained in a separate repository.
 
 ## Assets
