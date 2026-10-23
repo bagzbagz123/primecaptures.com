@@ -1,0 +1,79 @@
+/* Orientation and direct photo exploration, in Prime Capture's existing palette. */
+.nav { position: relative; }
+.nav-links a[aria-current="location"] {
+  color: #ff9b96;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
+/* The original mark opens into three curved blades, with no extra ring. */
+.logo-morph-rotor { pointer-events: none; }
+.logo-three-blades path {
+  fill: #fff;
+  stroke: #111113;
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+}
+.logo-three-blades [data-morph-blade]:first-child { fill: #CE3043; }
+.gallery-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+.gallery-thumbnail {
+  width: 84px;
+  height: 60px;
+  padding: 3px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: #303035;
+}
+.gallery-thumbnail img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.gallery-thumbnail[aria-pressed="true"] { border-color: #ff6863; }
+.gallery-thumbnail:hover { background: #55555c; }
+.gallery-thumbnail:active { border-color: #fff; }
+.gallery-status { font-size: 14px; color: #ffc3bf; margin-top: 12px; }
+#gallery-image { touch-action: pan-y pinch-zoom; }
+@media (min-width: 761px) {
+  .gallery-view > img { height: min(54svh, 620px); }
+}
+.photo-open:focus-visible .photo-expand,
+.photo-open:hover .photo-expand { background: #b52320; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .gallery-thumbnail { transition: border-color 160ms ease-out, background-color 160ms ease-out; }
+  .photo-expand { transition: transform 180ms ease-out, background-color 160ms ease-out; }
+  /* Native details remains functional when these newer CSS capabilities are absent. */
+  @supports (interpolate-size: allow-keywords) and (transition-behavior: allow-discrete) {
+    .faq-list details::details-content {
+      interpolate-size: allow-keywords;
+      block-size: 0;
+      overflow: clip;
+      transition: block-size 240ms cubic-bezier(.2,.8,.2,1), content-visibility 240ms allow-discrete;
+    }
+    .faq-list details[open]::details-content { block-size: auto; }
+  }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .photo-open:hover .photo-expand { transform: scale(1.08); }
+}
+@media (max-width: 760px) {
+  .gallery-thumbnails { gap: 8px; margin-top: 14px; }
+  .gallery-thumbnail { width: 56px; height: 46px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .logo-morph-rotor { transform: none; }
+  .logo-three-blades { display: none; }
+  .logo-original { opacity: 1; }
+}
+@media (prefers-contrast: more) {
+  .gallery-thumbnail { border-color: #92929a; }
+  .gallery-thumbnail[aria-pressed="true"] { border-color: #fff; }
+}

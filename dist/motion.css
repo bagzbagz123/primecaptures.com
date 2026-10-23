@@ -1,0 +1,42 @@
+/* HIG-inspired web feedback. Durations are design choices, not Apple mandates. */
+.moment:hover img { transform: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .button {
+    transition: background-color 140ms ease-out, box-shadow 140ms ease-out,
+      transform 160ms cubic-bezier(.2, .8, .2, 1);
+  }
+
+  /* The same control changes from open to close, reinforcing its current action. */
+  .menu-toggle span { transition: transform 160ms ease-out; }
+  .menu-toggle[aria-expanded="true"] span:first-child {
+    transform: translateY(3.25px) rotate(45deg);
+  }
+  .menu-toggle[aria-expanded="true"] span:last-child {
+    transform: translateY(-3.25px) rotate(-45deg);
+  }
+
+  dialog[open] {
+    animation: dialog-arrive 140ms ease-out;
+  }
+
+  @keyframes dialog-arrive {
+    from { opacity: .85; }
+    to { opacity: 1; }
+  }
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .button:hover { transform: translateY(-1px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button:hover { transform: none; }
+  /* Preserve the menu's state indication, without animating the change. */
+  .menu-toggle[aria-expanded="true"] span:first-child {
+    transform: translateY(3.25px) rotate(45deg);
+  }
+  .menu-toggle[aria-expanded="true"] span:last-child {
+    transform: translateY(-3.25px) rotate(-45deg);
+  }
+}

@@ -1,0 +1,40 @@
+/* Reflow safeguards for compact screens and enlarged text. */
+html { scroll-padding-top: var(--nav-clearance, 110px); }
+h1, h2, h3, .text-link, .button, figcaption { overflow-wrap: anywhere; }
+.pill { width: fit-content; max-width: 100%; }
+.section-kicker { min-width: 0; overflow-wrap: anywhere; }
+.dialog-header { gap: 16px; }
+.dialog-header .section-kicker { min-width: 0; overflow-wrap: anywhere; }
+.close-dialog { flex: 0 0 44px; }
+.gallery-view figcaption { flex-wrap: wrap; row-gap: 8px; }
+#gallery-title { min-width: 0; flex: 1 1 12rem; }
+#gallery-count { flex: 0 0 auto; }
+.gallery-controls { display: grid; grid-template-columns: 48px minmax(0, 1fr) 48px; }
+.gallery-controls > span { text-align: center; overflow-wrap: anywhere; }
+.keepsake-main, .keepsake-details-row, .keepsake-process, .form-row { min-width: 0; }
+.keepsake-main > *, .keepsake-details-row > *, .keepsake-process > *, .form-row > * { min-width: 0; }
+.benefit { min-width: 0; }
+.large-number { max-width: 100%; overflow-wrap: anywhere; }
+.form-error { overflow-wrap: anywhere; scroll-margin-block: 24px; }
+.form-error:focus { outline: 2px solid #ff9b96; outline-offset: 3px; }
+@media (max-width: 760px) {
+  .experience-scenes .experience-story { height: auto; min-height: 320px; }
+  .experience-scenes .experience-story > img { position: absolute; inset: 0; }
+  .story-overlay { position: relative; inset: auto; min-height: 320px; padding-bottom: 24px; gap: 20px; }
+  .story-overlay p { margin-bottom: 0; overflow-wrap: anywhere; }
+  .image-caption { display: block; position: relative; left: auto; right: auto; bottom: auto; padding: 14px 24px; background: #1c1c20; }
+  .hero-content { padding-bottom: 32px; }
+  .hero-bottom { position: relative; left: auto; right: auto; bottom: auto; padding: 0 22px 24px; flex-wrap: wrap; align-items: start; gap: 12px 20px; }
+  .hero-bottom > span { flex: 1 1 150px; }
+  .hero-bottom a { flex: 0 1 auto; min-width: 0; }
+  .hero-bottom a span { margin-left: 10px; }
+  .keepsake-main, .keepsake-details-row { grid-template-columns: minmax(0, 1fr); }
+  .benefits-grid { grid-template-columns: minmax(0, 1fr); }
+  .founder { grid-template-columns: minmax(0, 1fr); }
+  .founder-label, .founder-copy, .founder-access { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+  .access-name { flex-wrap: wrap; gap: 16px; }
+  .access-name > span, .access-note > span { min-width: 0; overflow-wrap: anywhere; }
+  .keepsake-process { overflow-wrap: anywhere; }
+  .footer-main > div, .footer-bottom { flex-wrap: wrap; }
+  .footer-bottom > * { min-width: 0; }
+}

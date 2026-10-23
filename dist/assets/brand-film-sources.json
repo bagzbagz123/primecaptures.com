@@ -1,0 +1,60 @@
+{
+  "source_filename": "video 11.MP4",
+  "source_sha256": "c2598d8c2fbc262adfb63e04ef770c21697475f52824bb50d5ca04a3b826549c",
+  "source_bytes": 2908139,
+  "origin": "User-supplied video; source authorship and venue identity are not asserted.",
+  "generated": null,
+  "duration_seconds": 13.167,
+  "video_frames": 395,
+  "dimensions": [
+    720,
+    1280
+  ],
+  "fps": 30,
+  "video_codec": "H.264",
+  "audio_codec": "AAC-LC",
+  "processing": "All 395 source video frames preserved at native dimensions and frame rate; fixed top-right mark interpolated over a bounded 75\u00d774 pixel area and replaced with the current Prime Capture lens icon. No other scenes, faces or brands changed. Original audio omitted; separate licensed ambient instrumental excerpt from its opening, -23 LUFS target and edge fades. Original musical tempo and pitch retained. H.264 CRF22/yuv420p, AAC stereo48kHz96kbps, faststart. Original video and music preserved privately.",
+  "icon_source": "assets/prime-capture-icon.svg",
+  "audio": {
+    "type": "Ambient background music",
+    "title": "Forest Mist Whispers",
+    "creator": "Alejandro Maga\u00f1a (A. M.)",
+    "source": "https://mixkit.co/free-stock-music/ambient/",
+    "download_url": "https://assets.mixkit.co/music/148/148.mp3",
+    "license": "Mixkit Stock Music Free License",
+    "license_url": "https://mixkit.co/license/#musicFree",
+    "source_sha256": "30232da0b9521ed35e009162bfe7c63d06c9c8e4ca81ea5137ab63a9dc66cd98",
+    "processing": "Opening 13.167-second excerpt, volume normalization and fades for synchronization with the video. Original musical tempo and pitch retained."
+  },
+  "poster": {
+    "time_seconds": 7.5,
+    "sizes": [
+      [
+        360,
+        640
+      ],
+      [
+        720,
+        1280
+      ]
+    ],
+    "note": "Legacy 640/1280 asset names now describe height; markup uses truthful 360w/720w descriptors."
+  },
+  "files": [
+    {
+      "asset": "assets/prime-capture-brand-film.mp4",
+      "bytes": 3837977,
+      "sha256": "1be3e1a83df37a3683b715808b5ccab9ddb1305ef896659e5d4b4522dc13240f"
+    },
+    {
+      "asset": "assets/brand-film-poster-640.webp",
+      "bytes": 30144,
+      "sha256": "2ab941ab84447d5af374e5b2a2af9b2a16274fb8d199ede83badb44dad9a70dc"
+    },
+    {
+      "asset": "assets/brand-film-poster-1280.webp",
+      "bytes": 64146,
+      "sha256": "6f6813e544806db9b15d92ad4e9465526fed7af944f2722f79737672b38d5cb1"
+    }
+  ]
+}

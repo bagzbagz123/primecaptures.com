@@ -1,0 +1,17 @@
+# Local credentials and hosting state
+.env
+.env.*
+!.env.example
+.vercel/
+node_modules/
+
+# Private originals, drafts and deployment evidence
+work/
+outputs/
+design/
+
+# Local OS files, logs and temporary browser fixtures
+.DS_Store
+*.log
+dist/__mobile-*.html
+dist/__brand-*.html

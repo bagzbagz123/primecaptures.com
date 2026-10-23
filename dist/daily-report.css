@@ -1,0 +1,50 @@
+/* A native disclosure explains the confirmed venue share with clearly illustrative figures. */
+.sales-report-preview { min-width: 0; margin-top: 22px; border-top: 1px solid #ffffff26; }
+.sales-report-preview > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  min-height: 64px;
+  padding: 16px 0 0;
+  list-style: none;
+  cursor: pointer;
+  color: #f5f5f7;
+  font-size: .9375rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.sales-report-preview > summary::-webkit-details-marker { display: none; }
+.sales-report-preview > summary::marker { content: ""; }
+.sales-report-preview > summary:hover { color: #ffc3bf; }
+.sales-report-preview > summary:focus-visible { outline: 3px solid #ff9b96; outline-offset: 5px; border-radius: 8px; }
+.sales-report-summary { display: grid; min-width: 0; gap: 4px; }
+.sales-report-tag { color: #ffb4ad; font-size: .75rem; font-weight: 400; line-height: 1.5; }
+.sales-report-toggle { flex: none; width: 22px; height: 22px; color: #ff9b96; }
+.sales-report-preview[open] .sales-report-toggle-vertical { display: none; }
+.sales-report-sheet { margin-top: 20px; padding: clamp(18px, 2vw, 26px); border: 1px solid #ffffff22; border-radius: 16px; background: #17171b; }
+.sales-report-kicker { display: block; color: #ffb4ad; font-size: .75rem; line-height: 1.5; letter-spacing: .06em; }
+.sales-report-heading h4 { margin: 10px 0 0; font-size: 1.125rem; line-height: 1.35; font-weight: 600; color: #f5f5f7; }
+.benefit .sales-report-heading p { margin: 7px 0 0; color: #c5c5cd; font-size: .8125rem; line-height: 1.6; }
+.sales-report-totals { display: grid; margin: 20px 0 0; font-size: .875rem; line-height: 1.5; }
+.sales-report-totals > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 16px; padding: 15px 0; border-top: 1px solid #ffffff20; }
+.sales-report-totals dt { min-width: 0; color: #cacacf; }
+.sales-report-totals dd { margin: 0; font-size: 1rem; color: #f5f5f7; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sales-report-share dt { color: #f5f5f7; font-weight: 600; }
+.sales-report-share dd { color: #ffb4ad; font-size: 1.5rem; }
+.benefit .sales-report-formula { margin: 3px 0 0; color: #cacacf; font-size: .875rem; line-height: 1.6; font-variant-numeric: tabular-nums; }
+.benefit .sales-report-example-note { margin: 14px 0 0; color: #c5c5cd; font-size: .8125rem; line-height: 1.65; }
+.sales-report-payment { margin-top: 22px; padding-top: 19px; border-top: 1px solid #ffffff20; }
+.sales-report-payment strong { display: block; font-size: .875rem; line-height: 1.6; font-weight: 600; color: #f5f5f7; }
+@media (min-width: 761px) {
+  .benefits-grid:has(.sales-report-preview[open]) .benefit.content .content-image { flex-grow: 1; min-height: 190px; max-height: none; }
+}
+@media (max-width: 380px) {
+  .sales-report-totals > div { gap: 10px; }
+  .sales-report-share dd { font-size: 1.25rem; }
+}
+@media (prefers-contrast: more) {
+  .sales-report-preview, .sales-report-sheet, .sales-report-totals > div, .sales-report-payment { border-color: #92929a; }
+  .sales-report-tag, .sales-report-kicker, .sales-report-share dd { color: #ffc3bf; }
+  .sales-report-totals dt, .benefit .sales-report-example-note { color: #e5e5e9; }
+}

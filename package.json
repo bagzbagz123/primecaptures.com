@@ -1,0 +1,11 @@
+{
+  "name": "primecapture-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-styles.mjs",
+    "start": "node scripts/build-styles.mjs && node --env-file-if-exists=.env local-server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": "22.x" }
+}

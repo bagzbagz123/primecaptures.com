@@ -1,0 +1,69 @@
+/* Venue-fit guidance beside the existing partnership inquiry. */
+.contact-with-fit .contact-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+  grid-template-areas: "copy guide" "actions guide";
+  column-gap: clamp(32px, 5vw, 80px);
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: clamp(52px, 6vw, 88px) clamp(28px, 5vw, 80px);
+  text-align: left;
+}
+.contact-copy { grid-area: copy; min-width: 0; align-self: end; }
+.contact-copy .eyebrow { justify-content: flex-start; font-size: .75rem; line-height: 1.5; }
+.contact-with-fit h2 {
+  margin-top: 24px;
+  font-size: clamp(38px, 3.8vw, 56px);
+  letter-spacing: -.045em;
+  line-height: 1.13;
+}
+.contact-with-fit .contact-copy > p {
+  max-width: 42ch;
+  margin: 24px 0 0;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.contact-actions { grid-area: actions; min-width: 0; align-self: start; margin-top: 30px; }
+.contact-with-fit .contact-assurances { justify-content: flex-start; flex-wrap: wrap; gap: 10px 14px; margin-top: 24px; }
+.venue-fit-guide {
+  grid-area: guide;
+  min-width: 0;
+  padding: clamp(24px, 2.6vw, 36px);
+  border: 1px solid #ffffff24;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #ffffff08, #ffffff02);
+}
+.venue-fit-kicker { display: block; color: #ff9b96; font-size: .75rem; line-height: 1.5; letter-spacing: .08em; }
+.venue-fit-guide h3 { margin-top: 12px; color: #f5f5f7; font-size: clamp(23px, 2vw, 28px); line-height: 1.25; font-weight: 600; letter-spacing: -.025em; }
+.venue-fit-list { display: grid; margin: 24px 0 0; padding: 0; list-style: none; }
+.venue-fit-list li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 14px; padding-block: 19px; border-top: 1px solid #ffffff1c; }
+.venue-fit-number { padding-top: 2px; color: #ff9b96; font-size: .75rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.venue-fit-list strong { display: block; color: #f5f5f7; font-size: .9375rem; line-height: 1.5; font-weight: 600; }
+.contact .venue-fit-list p { margin: 6px 0 0; color: #cacacf; font-size: .9375rem; line-height: 1.6; }
+.contact .venue-fit-note { margin: 4px 0 0; padding-top: 19px; border-top: 1px solid #ffffff1c; color: #cacacf; font-size: .875rem; line-height: 1.65; }
+@media (max-width: 900px) {
+  .contact-with-fit .contact-inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "copy" "guide" "actions";
+    gap: 30px;
+    padding: 56px clamp(23px, 5vw, 44px);
+  }
+  .contact-with-fit h2 { font-size: clamp(36px, 6vw, 48px); }
+  .contact-with-fit .contact-copy > p { max-width: 48ch; font-size: .9375rem; margin-top: 22px; }
+  .venue-fit-guide { padding: 24px; }
+  .contact-actions { margin-top: 0; }
+  .contact-actions > .button { max-width: 100%; white-space: normal; text-align: left; }
+}
+@media (max-width: 760px) {
+  .contact-with-fit h2 { font-size: clamp(28px, 8vw, 40px); }
+}
+@media (max-width: 380px) {
+  .venue-fit-guide { padding: 22px 18px; border-radius: 18px; }
+  .venue-fit-list li { grid-template-columns: 20px minmax(0, 1fr); gap: 10px; }
+  .contact-with-fit .contact-assurances { column-gap: 10px; }
+}
+@media (prefers-contrast: more) {
+  .venue-fit-guide, .venue-fit-list li, .contact .venue-fit-note { border-color: #92929a; }
+  .venue-fit-number, .venue-fit-kicker { color: #ffc3bf; }
+  .contact .venue-fit-list p, .contact .venue-fit-note { color: #e5e5e9; }
+}

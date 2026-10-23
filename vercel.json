@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "installCommand": "",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/partnership.mjs": { "maxDuration": 30 },
+    "api/photo-support.mjs": { "maxDuration": 30 }
+  },
+  "redirects": [
+    { "source": "/pages/portfolio.html", "destination": "/#experience", "permanent": false },
+    { "source": "/pages/services.html", "destination": "/#experience", "permanent": false },
+    { "source": "/pages/partnerships.html", "destination": "/#partnership", "permanent": false },
+    { "source": "/pages/our-team.html", "destination": "/#founder", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }] }
+  ]
+}

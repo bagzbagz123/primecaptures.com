@@ -1,0 +1,31 @@
+/* A single compact action; hidden markup remains inert without its enhancement. */
+.mobile-inquiry { display: none; }
+@media (max-width: 760px) {
+  .mobile-inquiry {
+    position: fixed;
+    z-index: 19;
+    inset-inline: max(20px, env(safe-area-inset-left)) max(20px, env(safe-area-inset-right));
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+  }
+  .mobile-inquiry .button {
+    width: 100%;
+    max-width: 340px;
+    min-height: 54px;
+    justify-content: space-between;
+    padding: 15px 23px;
+    border: 1px solid #ffaaa552;
+    background: #d9322e;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.4;
+    box-shadow: 0 8px 30px #00000070, 0 0 0 5px #141416a6;
+    pointer-events: auto;
+  }
+  .mobile-inquiry .icon { width: 20px; height: 20px; flex-shrink: 0; }
+  .mobile-inquiry .button:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+  html.mobile-inquiry-visible { scroll-padding-bottom: calc(86px + env(safe-area-inset-bottom)); }
+  .mobile-inquiry[hidden] { display: none; }
+}

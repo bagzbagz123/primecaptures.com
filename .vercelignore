@@ -1,0 +1,11 @@
+.env
+.env.*
+work
+outputs
+design
+tests
+README.md
+local-server.mjs
+.git
+dist/__mobile-*.html
+dist/__brand-*.html

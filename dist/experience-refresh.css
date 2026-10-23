@@ -1,0 +1,63 @@
+/* Authentic guest photographs and a compact food/drink portfolio pair. */
+.experience-photo,
+.hospitality-photo { margin: 0; min-width: 0; }
+.experience-photo .photo-open,
+.hospitality-photo .photo-open {
+  display: block;
+  position: relative;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #252527;
+}
+.experience-photo img,
+.hospitality-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.experience-photo figcaption,
+.hospitality-photo figcaption {
+  padding: 18px 2px 0;
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.45;
+  letter-spacing: -.3px;
+}
+.experience-photo figcaption span,
+.hospitality-photo figcaption span {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--muted);
+  font-size: .75rem;
+  line-height: 1.7;
+  letter-spacing: .08em;
+}
+.hospitality-portfolio {
+  margin-top: 56px;
+  padding-top: 36px;
+  border-top: 1px solid var(--line);
+  scroll-margin-top: 100px;
+}
+.hospitality-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.hospitality-heading h3 { font-size: 28px; letter-spacing: -.8px; }
+.hospitality-heading p { max-width: 340px; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.hospitality-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+@media (max-width: 760px) {
+  .hospitality-portfolio { margin-top: 38px; padding-top: 28px; }
+  .hospitality-heading { display: block; margin-bottom: 20px; }
+  .hospitality-heading h3 { font-size: 23px; }
+  .hospitality-heading p { margin-top: 10px; }
+  .hospitality-grid { grid-template-columns: 1fr; gap: 28px; }
+  .experience-photo .photo-open,
+  .hospitality-photo .photo-open { border-radius: 16px; }
+  .experience-photo figcaption,
+  .hospitality-photo figcaption { font-size: 19px; padding-top: 14px; }
+}

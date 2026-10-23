@@ -1,0 +1,1212 @@
+[
+  {
+    "asset": "assets/photographer-night.webp",
+    "source": "https://www.primecaptures.com/cdn/shop/files/theodor%20photographer%20night.jpg",
+    "source_pages": [
+      "https://www.primecaptures.com/"
+    ],
+    "original_dimensions": [
+      1886,
+      1447
+    ]
+  },
+  {
+    "asset": "assets/guest-toast.webp",
+    "source": "https://www.primecaptures.com/cdn/shop/files/A7406784-v=1723566685.jpg",
+    "source_pages": [
+      "https://www.primecaptures.com/pages/portfolio.html"
+    ],
+    "original_dimensions": [
+      1521,
+      1015
+    ]
+  },
+  {
+    "asset": "assets/food-story.webp",
+    "source": "https://www.primecaptures.com/cdn/shop/files/8C89645D-1533-426E-9E60-8D293BFC9CBD-v=1723579765.jpg",
+    "source_pages": [
+      "https://www.primecaptures.com/pages/portfolio.html"
+    ],
+    "original_dimensions": [
+      1900,
+      1267
+    ]
+  },
+  {
+    "asset": "assets/venue-atmosphere.webp",
+    "source": "https://www.primecaptures.com/cdn/shop/files/A7405327-v=1723582842.png",
+    "source_pages": [
+      "https://www.primecaptures.com/pages/portfolio.html"
+    ],
+    "original_dimensions": [
+      2312,
+      1543
+    ]
+  },
+  {
+    "asset": "assets/food-detail.webp",
+    "source": "https://www.primecaptures.com/cdn/shop/files/A7405721-v=1723582949.jpg",
+    "source_pages": [
+      "https://www.primecaptures.com/pages/portfolio.html"
+    ],
+    "original_dimensions": [
+      1015,
+      1521
+    ]
+  },
+  {
+    "asset": "assets/gallery-together-600.webp",
+    "source": "https://drive.google.com/file/d/1hKx10EzK_JKSxOFw51RWinjsYHUX93U-/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/u/1/folders/1xNynyEEWNlgEPL_hVGvfDPOQdnQ8dCr-"
+    ],
+    "original_dimensions": [
+      6000,
+      4000
+    ],
+    "source_file": "IMG_2193.JPG",
+    "derivative_dimensions": [
+      600,
+      400
+    ]
+  },
+  {
+    "asset": "assets/gallery-together-1200.webp",
+    "source": "https://drive.google.com/file/d/1hKx10EzK_JKSxOFw51RWinjsYHUX93U-/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/u/1/folders/1xNynyEEWNlgEPL_hVGvfDPOQdnQ8dCr-"
+    ],
+    "original_dimensions": [
+      6000,
+      4000
+    ],
+    "source_file": "IMG_2193.JPG",
+    "derivative_dimensions": [
+      1200,
+      800
+    ]
+  },
+  {
+    "asset": "assets/gallery-together-2400.webp",
+    "source": "https://drive.google.com/file/d/1hKx10EzK_JKSxOFw51RWinjsYHUX93U-/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/u/1/folders/1xNynyEEWNlgEPL_hVGvfDPOQdnQ8dCr-"
+    ],
+    "original_dimensions": [
+      6000,
+      4000
+    ],
+    "source_file": "IMG_2193.JPG",
+    "derivative_dimensions": [
+      2400,
+      1600
+    ]
+  },
+  {
+    "asset": "assets/gallery-good-company-800.webp",
+    "source": "https://drive.google.com/file/d/1hT60P_dWECKzzd0L21Z6KAGCE831aj5u/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1fXAN5Zf_8FHwG5dX6ZmnnqwPyjGYuYG5"
+    ],
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "source_file": "DSC01072.JPG",
+    "derivative_dimensions": [
+      800,
+      533
+    ]
+  },
+  {
+    "asset": "assets/gallery-good-company-1600.webp",
+    "source": "https://drive.google.com/file/d/1hT60P_dWECKzzd0L21Z6KAGCE831aj5u/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1fXAN5Zf_8FHwG5dX6ZmnnqwPyjGYuYG5"
+    ],
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "source_file": "DSC01072.JPG",
+    "derivative_dimensions": [
+      1600,
+      1067
+    ]
+  },
+  {
+    "asset": "assets/gallery-good-company-2400.webp",
+    "source": "https://drive.google.com/file/d/1hT60P_dWECKzzd0L21Z6KAGCE831aj5u/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1fXAN5Zf_8FHwG5dX6ZmnnqwPyjGYuYG5"
+    ],
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "source_file": "DSC01072.JPG",
+    "derivative_dimensions": [
+      2400,
+      1600
+    ]
+  },
+  {
+    "asset": "assets/gallery-portrait-600.webp",
+    "source": "https://drive.google.com/file/d/1VDAT_U2QdZO_j3Xt5KKZZDs3B85F8dx7/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/u/1/folders/1xNynyEEWNlgEPL_hVGvfDPOQdnQ8dCr-"
+    ],
+    "original_dimensions": [
+      6336,
+      9504
+    ],
+    "source_file": "DSC01056.JPG",
+    "derivative_dimensions": [
+      600,
+      900
+    ]
+  },
+  {
+    "asset": "assets/gallery-portrait-1000.webp",
+    "source": "https://drive.google.com/file/d/1VDAT_U2QdZO_j3Xt5KKZZDs3B85F8dx7/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/u/1/folders/1xNynyEEWNlgEPL_hVGvfDPOQdnQ8dCr-"
+    ],
+    "original_dimensions": [
+      6336,
+      9504
+    ],
+    "source_file": "DSC01056.JPG",
+    "derivative_dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "asset": "assets/gallery-portrait-1600.webp",
+    "source": "https://drive.google.com/file/d/1VDAT_U2QdZO_j3Xt5KKZZDs3B85F8dx7/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/u/1/folders/1xNynyEEWNlgEPL_hVGvfDPOQdnQ8dCr-"
+    ],
+    "original_dimensions": [
+      6336,
+      9504
+    ],
+    "source_file": "DSC01056.JPG",
+    "derivative_dimensions": [
+      1600,
+      2400
+    ]
+  },
+  {
+    "asset": "assets/gallery-connection-600.webp",
+    "source": "https://drive.google.com/file/d/10jHUBbcbO-g2ssnQyYHicRw_KuNmyfse/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1yTuZvQrbu8H-jkkCFIAENehK_6vfkg4M"
+    ],
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "source_file": "DSC03537.JPG",
+    "derivative_dimensions": [
+      600,
+      400
+    ]
+  },
+  {
+    "asset": "assets/gallery-connection-1200.webp",
+    "source": "https://drive.google.com/file/d/10jHUBbcbO-g2ssnQyYHicRw_KuNmyfse/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1yTuZvQrbu8H-jkkCFIAENehK_6vfkg4M"
+    ],
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "source_file": "DSC03537.JPG",
+    "derivative_dimensions": [
+      1200,
+      800
+    ]
+  },
+  {
+    "asset": "assets/gallery-connection-2400.webp",
+    "source": "https://drive.google.com/file/d/10jHUBbcbO-g2ssnQyYHicRw_KuNmyfse/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1yTuZvQrbu8H-jkkCFIAENehK_6vfkg4M"
+    ],
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "source_file": "DSC03537.JPG",
+    "derivative_dimensions": [
+      2400,
+      1600
+    ]
+  },
+  {
+    "asset": "assets/guest-content-800.webp",
+    "source": "https://drive.google.com/file/d/16Y1l5YWlEhIXP1l0tgaUvWLunkxJwdMh/view?usp=drivesdk",
+    "source_pages": [
+      "https://drive.google.com/drive/u/1/folders/1xNynyEEWNlgEPL_hVGvfDPOQdnQ8dCr-"
+    ],
+    "original_dimensions": [
+      6000,
+      4000
+    ],
+    "source_file": "IMG_2207.JPG",
+    "derivative_dimensions": [
+      800,
+      533
+    ]
+  },
+  {
+    "asset": "assets/venue-atmosphere-640.webp",
+    "source": "https://drive.google.com/file/d/16l6FGR6ayH51HoMlKg-9Lk1psT9R6Lbf/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1sCZDvdpWETjacfNln4ffzCk_PKLjOk8w"
+    ],
+    "source_folder": "GRAILS/GRAILS 2026/Spanglish Interior",
+    "source_file": "DSC01548.jpg",
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "derivative_dimensions": [
+      640,
+      427
+    ]
+  },
+  {
+    "asset": "assets/venue-atmosphere-1200.webp",
+    "source": "https://drive.google.com/file/d/16l6FGR6ayH51HoMlKg-9Lk1psT9R6Lbf/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1sCZDvdpWETjacfNln4ffzCk_PKLjOk8w"
+    ],
+    "source_folder": "GRAILS/GRAILS 2026/Spanglish Interior",
+    "source_file": "DSC01548.jpg",
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "derivative_dimensions": [
+      1200,
+      800
+    ]
+  },
+  {
+    "asset": "assets/venue-atmosphere-2000.webp",
+    "source": "https://drive.google.com/file/d/16l6FGR6ayH51HoMlKg-9Lk1psT9R6Lbf/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1sCZDvdpWETjacfNln4ffzCk_PKLjOk8w"
+    ],
+    "source_folder": "GRAILS/GRAILS 2026/Spanglish Interior",
+    "source_file": "DSC01548.jpg",
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "derivative_dimensions": [
+      2000,
+      1333
+    ]
+  },
+  {
+    "asset": "assets/dining-detail-480.webp",
+    "source": "https://drive.google.com/file/d/1tGsNL1e0s0QJpi78J68Gb3R9d_eBQy9I/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1yjioQYfRxnupGp8QaO2J8DpmTgZgSMMs"
+    ],
+    "source_folder": "GRAILS/GRAILS 2025/quesadillas",
+    "source_file": "IMG_3600.HEIC",
+    "original_dimensions": [
+      3024,
+      4032
+    ],
+    "derivative_dimensions": [
+      480,
+      640
+    ]
+  },
+  {
+    "asset": "assets/dining-detail-800.webp",
+    "source": "https://drive.google.com/file/d/1tGsNL1e0s0QJpi78J68Gb3R9d_eBQy9I/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1yjioQYfRxnupGp8QaO2J8DpmTgZgSMMs"
+    ],
+    "source_folder": "GRAILS/GRAILS 2025/quesadillas",
+    "source_file": "IMG_3600.HEIC",
+    "original_dimensions": [
+      3024,
+      4032
+    ],
+    "derivative_dimensions": [
+      800,
+      1067
+    ]
+  },
+  {
+    "asset": "assets/dining-detail-1200.webp",
+    "source": "https://drive.google.com/file/d/1tGsNL1e0s0QJpi78J68Gb3R9d_eBQy9I/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1yjioQYfRxnupGp8QaO2J8DpmTgZgSMMs"
+    ],
+    "source_folder": "GRAILS/GRAILS 2025/quesadillas",
+    "source_file": "IMG_3600.HEIC",
+    "original_dimensions": [
+      3024,
+      4032
+    ],
+    "derivative_dimensions": [
+      1200,
+      1600
+    ]
+  },
+  {
+    "asset": "assets/gallery-wilde-640.webp",
+    "source": "https://drive.google.com/file/d/1GENmEZU-s9ScAc7Hh2PCZTrKOcQLlBnF/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1AlK2xf6Vhq7PQ1nZQoNuiIBe3H5iR0rp"
+    ],
+    "source_folder": "WILDE ON THE PORCH 2025",
+    "source_file": "DSC07958.jpg",
+    "original_dimensions": [
+      5656,
+      3771
+    ],
+    "derivative_dimensions": [
+      640,
+      427
+    ]
+  },
+  {
+    "asset": "assets/gallery-wilde-1200.webp",
+    "source": "https://drive.google.com/file/d/1GENmEZU-s9ScAc7Hh2PCZTrKOcQLlBnF/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1AlK2xf6Vhq7PQ1nZQoNuiIBe3H5iR0rp"
+    ],
+    "source_folder": "WILDE ON THE PORCH 2025",
+    "source_file": "DSC07958.jpg",
+    "original_dimensions": [
+      5656,
+      3771
+    ],
+    "derivative_dimensions": [
+      1200,
+      800
+    ]
+  },
+  {
+    "asset": "assets/gallery-wilde-2000.webp",
+    "source": "https://drive.google.com/file/d/1GENmEZU-s9ScAc7Hh2PCZTrKOcQLlBnF/view",
+    "source_pages": [
+      "https://drive.google.com/drive/folders/1AlK2xf6Vhq7PQ1nZQoNuiIBe3H5iR0rp"
+    ],
+    "source_folder": "WILDE ON THE PORCH 2025",
+    "source_file": "DSC07958.jpg",
+    "original_dimensions": [
+      5656,
+      3771
+    ],
+    "derivative_dimensions": [
+      2000,
+      1333
+    ]
+  },
+  {
+    "asset": "assets/copper-evening-480.webp",
+    "source": "https://drive.google.com/file/d/1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt/view",
+    "source_file": "DSC04815.jpg",
+    "source_id": "1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt",
+    "source_folder": "COPPER 29/2026/2026-10-17/Edited photos",
+    "source_folder_id": "1DYSfj2_ssr0VJClMTv5g_gw8eV-D87EA",
+    "original_dimensions": [
+      4160,
+      6240
+    ],
+    "dimensions": [
+      480,
+      600
+    ],
+    "crop": {
+      "ratio": [
+        4,
+        5
+      ],
+      "centering": [
+        0.5,
+        0.38
+      ]
+    },
+    "processing": "sRGB WebP; EXIF/GPS removed; original preserved; no enlargement or retouching"
+  },
+  {
+    "asset": "assets/copper-evening-900.webp",
+    "source": "https://drive.google.com/file/d/1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt/view",
+    "source_file": "DSC04815.jpg",
+    "source_id": "1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt",
+    "source_folder": "COPPER 29/2026/2026-10-17/Edited photos",
+    "source_folder_id": "1DYSfj2_ssr0VJClMTv5g_gw8eV-D87EA",
+    "original_dimensions": [
+      4160,
+      6240
+    ],
+    "dimensions": [
+      900,
+      1125
+    ],
+    "crop": {
+      "ratio": [
+        4,
+        5
+      ],
+      "centering": [
+        0.5,
+        0.38
+      ]
+    },
+    "processing": "sRGB WebP; EXIF/GPS removed; original preserved; no enlargement or retouching"
+  },
+  {
+    "asset": "assets/copper-evening-1400.webp",
+    "source": "https://drive.google.com/file/d/1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt/view",
+    "source_file": "DSC04815.jpg",
+    "source_id": "1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt",
+    "source_folder": "COPPER 29/2026/2026-10-17/Edited photos",
+    "source_folder_id": "1DYSfj2_ssr0VJClMTv5g_gw8eV-D87EA",
+    "original_dimensions": [
+      4160,
+      6240
+    ],
+    "dimensions": [
+      1400,
+      1750
+    ],
+    "crop": {
+      "ratio": [
+        4,
+        5
+      ],
+      "centering": [
+        0.5,
+        0.38
+      ]
+    },
+    "processing": "sRGB WebP; EXIF/GPS removed; original preserved; no enlargement or retouching"
+  },
+  {
+    "asset": "assets/copper-evening-full.webp",
+    "source": "https://drive.google.com/file/d/1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt/view",
+    "source_file": "DSC04815.jpg",
+    "source_id": "1_YIzPxlo_5-IcHBJ8mCwEJHf2axdnEQt",
+    "source_folder": "COPPER 29/2026/2026-10-17/Edited photos",
+    "source_folder_id": "1DYSfj2_ssr0VJClMTv5g_gw8eV-D87EA",
+    "original_dimensions": [
+      4160,
+      6240
+    ],
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "crop": null,
+    "processing": "sRGB WebP; EXIF/GPS removed; original preserved; no enlargement or retouching"
+  },
+  {
+    "asset": "assets/copper-toast-480.webp",
+    "source": "https://drive.google.com/file/d/1IsOUSLcqTru9_fwCCj6GjPS6m95cjJ_j/view",
+    "source_file": "DSC04823.jpg",
+    "source_id": "1IsOUSLcqTru9_fwCCj6GjPS6m95cjJ_j",
+    "source_folder": "COPPER 29/2026/2026-10-17/Edited photos",
+    "source_folder_id": "1DYSfj2_ssr0VJClMTv5g_gw8eV-D87EA",
+    "original_dimensions": [
+      4160,
+      6240
+    ],
+    "dimensions": [
+      480,
+      320
+    ],
+    "crop": {
+      "ratio": [
+        3,
+        2
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ]
+    },
+    "processing": "sRGB WebP; EXIF/GPS removed; original preserved; no enlargement or retouching"
+  },
+  {
+    "asset": "assets/copper-toast-900.webp",
+    "source": "https://drive.google.com/file/d/1IsOUSLcqTru9_fwCCj6GjPS6m95cjJ_j/view",
+    "source_file": "DSC04823.jpg",
+    "source_id": "1IsOUSLcqTru9_fwCCj6GjPS6m95cjJ_j",
+    "source_folder": "COPPER 29/2026/2026-10-17/Edited photos",
+    "source_folder_id": "1DYSfj2_ssr0VJClMTv5g_gw8eV-D87EA",
+    "original_dimensions": [
+      4160,
+      6240
+    ],
+    "dimensions": [
+      900,
+      600
+    ],
+    "crop": {
+      "ratio": [
+        3,
+        2
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ]
+    },
+    "processing": "sRGB WebP; EXIF/GPS removed; original preserved; no enlargement or retouching"
+  },
+  {
+    "asset": "assets/copper-toast-full.webp",
+    "source": "https://drive.google.com/file/d/1IsOUSLcqTru9_fwCCj6GjPS6m95cjJ_j/view",
+    "source_file": "DSC04823.jpg",
+    "source_id": "1IsOUSLcqTru9_fwCCj6GjPS6m95cjJ_j",
+    "source_folder": "COPPER 29/2026/2026-10-17/Edited photos",
+    "source_folder_id": "1DYSfj2_ssr0VJClMTv5g_gw8eV-D87EA",
+    "original_dimensions": [
+      4160,
+      6240
+    ],
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "crop": null,
+    "processing": "sRGB WebP; EXIF/GPS removed; original preserved; no enlargement or retouching"
+  },
+  {
+    "asset": "assets/keepsake-collection-600.webp",
+    "source": "https://drive.google.com/file/d/16_wUGsEEhUIp6Va9nXwrrA3JQplVHWqa/view",
+    "source_filename": "IMG_8233.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      4284,
+      5712
+    ],
+    "crop": [
+      0,
+      1640,
+      4284,
+      4853
+    ],
+    "dimensions": [
+      600,
+      450
+    ],
+    "bytes": 58876
+  },
+  {
+    "asset": "assets/keepsake-collection-1100.webp",
+    "source": "https://drive.google.com/file/d/16_wUGsEEhUIp6Va9nXwrrA3JQplVHWqa/view",
+    "source_filename": "IMG_8233.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      4284,
+      5712
+    ],
+    "crop": [
+      0,
+      1640,
+      4284,
+      4853
+    ],
+    "dimensions": [
+      1100,
+      825
+    ],
+    "bytes": 166592
+  },
+  {
+    "asset": "assets/keepsake-collection-1700.webp",
+    "source": "https://drive.google.com/file/d/16_wUGsEEhUIp6Va9nXwrrA3JQplVHWqa/view",
+    "source_filename": "IMG_8233.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      4284,
+      5712
+    ],
+    "crop": [
+      0,
+      1640,
+      4284,
+      4853
+    ],
+    "dimensions": [
+      1700,
+      1275
+    ],
+    "bytes": 336362
+  },
+  {
+    "asset": "assets/keepsake-collection-full.webp",
+    "source": "https://drive.google.com/file/d/16_wUGsEEhUIp6Va9nXwrrA3JQplVHWqa/view",
+    "source_filename": "IMG_8233.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      4284,
+      5712
+    ],
+    "crop": [
+      0,
+      1640,
+      4284,
+      4853
+    ],
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "bytes": 440386
+  },
+  {
+    "asset": "assets/keepsake-glass-600.webp",
+    "source": "https://drive.google.com/file/d/1v11lsyekuOaO5A1K5kM5JWTG9axcqjo_/view",
+    "source_filename": "IMG_7686.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      3024,
+      4032
+    ],
+    "crop": [
+      0,
+      1512,
+      3024,
+      3780
+    ],
+    "dimensions": [
+      600,
+      450
+    ],
+    "bytes": 32132
+  },
+  {
+    "asset": "assets/keepsake-glass-1100.webp",
+    "source": "https://drive.google.com/file/d/1v11lsyekuOaO5A1K5kM5JWTG9axcqjo_/view",
+    "source_filename": "IMG_7686.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      3024,
+      4032
+    ],
+    "crop": [
+      0,
+      1512,
+      3024,
+      3780
+    ],
+    "dimensions": [
+      1100,
+      825
+    ],
+    "bytes": 70486
+  },
+  {
+    "asset": "assets/keepsake-glass-full.webp",
+    "source": "https://drive.google.com/file/d/1v11lsyekuOaO5A1K5kM5JWTG9axcqjo_/view",
+    "source_filename": "IMG_7686.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      3024,
+      4032
+    ],
+    "crop": [
+      0,
+      1512,
+      3024,
+      3780
+    ],
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "bytes": 168804
+  },
+  {
+    "asset": "assets/keepsake-printing-framing.mp4",
+    "source": "https://drive.google.com/file/d/1L_Yf-8G1p-hZyEv1co3oN15Oa5Wa_XVa/view",
+    "source_filename": "ScreenRecording_10-23-2026 02-15-41_1.mov",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      1288,
+      1846
+    ],
+    "dimensions": [
+      720,
+      1032
+    ],
+    "duration_seconds": 7.3,
+    "bytes": 1336831,
+    "processing": "Complete visual sequence; 30 fps H.264, faststart, no audio or source metadata. Originals preserved."
+  },
+  {
+    "asset": "assets/keepsake-process-poster.webp",
+    "source": "https://drive.google.com/file/d/1L_Yf-8G1p-hZyEv1co3oN15Oa5Wa_XVa/view",
+    "source_filename": "ScreenRecording_10-23-2026 02-15-41_1.mov",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      1288,
+      1846
+    ],
+    "dimensions": [
+      720,
+      1032
+    ],
+    "duration_seconds": 7.3,
+    "bytes": 16040,
+    "processing": "Poster at 3.25 seconds of the optimized video."
+  },
+  {
+    "asset": "assets/keepsake-collection-800.webp",
+    "source": "https://drive.google.com/file/d/16_wUGsEEhUIp6Va9nXwrrA3JQplVHWqa/view",
+    "source_filename": "IMG_8233.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      4284,
+      5712
+    ],
+    "crop": [
+      0,
+      1640,
+      4284,
+      4853
+    ],
+    "dimensions": [
+      800,
+      600
+    ],
+    "bytes": 93930,
+    "processing": "WebP quality 84, method 6; same approved 4:3 crop from preserved full-resolution source; metadata removed; original preserved; no enlargement or retouching."
+  },
+  {
+    "asset": "assets/keepsake-glass-800.webp",
+    "source": "https://drive.google.com/file/d/1v11lsyekuOaO5A1K5kM5JWTG9axcqjo_/view",
+    "source_filename": "IMG_7686.heic",
+    "source_folder": "Photo Service",
+    "source_folder_id": "1bN92S6GmqpPVlXa7Qjgw9c4FHd2G_21C",
+    "original_dimensions": [
+      3024,
+      4032
+    ],
+    "crop": [
+      0,
+      1512,
+      3024,
+      3780
+    ],
+    "dimensions": [
+      800,
+      600
+    ],
+    "bytes": 46538,
+    "processing": "WebP quality 84, method 6; same approved 4:3 crop from preserved full-resolution source; metadata removed; original preserved; no enlargement or retouching."
+  },
+  {
+    "asset": "assets/prime-capture-social.jpg",
+    "source": "https://www.primecaptures.com/cdn/shop/files/theodor%20photographer%20night.jpg",
+    "source_asset": "assets/photographer-night.webp",
+    "original_dimensions": [
+      1886,
+      1447
+    ],
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 96593,
+    "placement": "Open Graph and large social sharing cards",
+    "processing": "HTML/CSS composition rendered at 1200 by 630 with existing self-hosted DM Sans, provisional brand mark, dark/red styling and the unchanged photographer photo. Photo uses cover framing with 50% horizontal / 27% vertical positioning, dark readability overlay, brand and service copy. Progressive RGB JPEG quality 90, 4:4:4; EXIF/GPS removed; existing photo master preserved. No generated photography or retouching."
+  },
+  {
+    "asset": "assets/prime-capture-social-v2.jpg",
+    "source": "https://www.primecaptures.com/cdn/shop/files/theodor%20photographer%20night.jpg",
+    "source_asset": "assets/photographer-night.webp",
+    "original_dimensions": [
+      1886,
+      1447
+    ],
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 96906,
+    "placement": "Open Graph and large social sharing cards",
+    "processing": "HTML/CSS composition rendered at 1200 by 630 with the current outlined circular-lens Prime Capture logo (v6 refined original, reverse white/red), existing self-hosted DM Sans, dark/red styling and unchanged photographer photo. Only logo composition changed from the prior sharing card. Photo cover framing remains 50% horizontal / 27% vertical with dark readability overlay. Progressive RGB JPEG quality 90, 4:4:4; EXIF/GPS removed; existing photo master preserved. No generated photography or retouching."
+  },
+  {
+    "asset": "assets/workstation-480.webp",
+    "source": "Owner-provided attachment",
+    "source_filename": "IMG_3668.WEBP",
+    "source_folder": null,
+    "original_dimensions": [
+      1920,
+      2015
+    ],
+    "dimensions": [
+      480,
+      504
+    ],
+    "bytes": 11842,
+    "sha256": "82654fa571d00ee797c1e98dfd2a07a4a42ce79aa7a2d4c118f75706def93cda",
+    "processing": "Proportional resize and WebP compression; no crop, generated content, EXIF, or background changes. Entire photographed station remains visible."
+  },
+  {
+    "asset": "assets/workstation-800.webp",
+    "source": "Owner-provided attachment",
+    "source_filename": "IMG_3668.WEBP",
+    "source_folder": null,
+    "original_dimensions": [
+      1920,
+      2015
+    ],
+    "dimensions": [
+      800,
+      840
+    ],
+    "bytes": 24256,
+    "sha256": "c99179ca9f5a832e7d8524b8ee7c51a317016ae99beeafe61383eb43cac4317b",
+    "processing": "Proportional resize and WebP compression; no crop, generated content, EXIF, or background changes. Entire photographed station remains visible."
+  },
+  {
+    "asset": "assets/workstation-1200.webp",
+    "source": "Owner-provided attachment",
+    "source_filename": "IMG_3668.WEBP",
+    "source_folder": null,
+    "original_dimensions": [
+      1920,
+      2015
+    ],
+    "dimensions": [
+      1200,
+      1259
+    ],
+    "bytes": 47372,
+    "sha256": "925bb8b0bb9dd56bbacb2da30676be3dcb40b4d1508ab8712242494ac4804478",
+    "processing": "Proportional resize and WebP compression; no crop, generated content, EXIF, or background changes. Entire photographed station remains visible."
+  },
+  {
+    "asset": "assets/experience-friends-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 22786,
+    "sha256": "525a7c1f2013292a463e59eb6489ac11b5fc7ffbaabac36d92555a196543b0f3",
+    "source": "https://drive.google.com/file/d/1hmoW_j9_TIHqCdgkvjP-DNIIqLDY-tpq/view",
+    "source_filename": "DSC05111.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 22:24:25",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/experience-friends-800.webp",
+    "width": 800,
+    "height": 533,
+    "bytes": 48746,
+    "sha256": "5b6f5f9b1b25eb8ed0d0e96cb886b780234d73b8e594817318116ebcce5a912a",
+    "source": "https://drive.google.com/file/d/1hmoW_j9_TIHqCdgkvjP-DNIIqLDY-tpq/view",
+    "source_filename": "DSC05111.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 22:24:25",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/experience-friends-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "bytes": 116986,
+    "sha256": "881d6359a5fd2dc03617fd2be0be4e6d70bc6abddff596277683c4fdcd2107d5",
+    "source": "https://drive.google.com/file/d/1hmoW_j9_TIHqCdgkvjP-DNIIqLDY-tpq/view",
+    "source_filename": "DSC05111.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 22:24:25",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/experience-friends-full.webp",
+    "width": 2400,
+    "height": 1600,
+    "bytes": 413124,
+    "sha256": "747b87412bd763be77e6e02085aa03be14cea40edf94ebdaeb2f849fca056724",
+    "source": "https://drive.google.com/file/d/1hmoW_j9_TIHqCdgkvjP-DNIIqLDY-tpq/view",
+    "source_filename": "DSC05111.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 22:24:25",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/experience-table-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 35206,
+    "sha256": "bec746966447616e12080584af0716ffc079d180fc2a290283e0ebe8bb763c85",
+    "source": "https://drive.google.com/file/d/1Tx4t6sEW9s0_WdDsZIu2oi1j7qERqctM/view",
+    "source_filename": "DSC05085.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 21:20:06",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/experience-table-800.webp",
+    "width": 800,
+    "height": 533,
+    "bytes": 78060,
+    "sha256": "a0ad571408ad001be123128fa6723643284d6253abfcd039efc095cb4af73bdd",
+    "source": "https://drive.google.com/file/d/1Tx4t6sEW9s0_WdDsZIu2oi1j7qERqctM/view",
+    "source_filename": "DSC05085.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 21:20:06",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/experience-table-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "bytes": 176750,
+    "sha256": "6f3364d608e04ad9dab1d3fc0fb49868bdd241fa1e8e2323cb82ee3b0dacb9d4",
+    "source": "https://drive.google.com/file/d/1Tx4t6sEW9s0_WdDsZIu2oi1j7qERqctM/view",
+    "source_filename": "DSC05085.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 21:20:06",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/experience-table-full.webp",
+    "width": 2400,
+    "height": 1600,
+    "bytes": 499888,
+    "sha256": "127860ce7df9920986e1f9d66d1029dc52a1e6d517aec9528dc23eed12508eaa",
+    "source": "https://drive.google.com/file/d/1Tx4t6sEW9s0_WdDsZIu2oi1j7qERqctM/view",
+    "source_filename": "DSC05085.jpg",
+    "source_folder": "GRAILS 2026 / 2026-10-17 / Edited Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1yG8HeQi1VNcXdSMsbi_mZTmmyPRxGd2s",
+    "original_dimensions": [
+      6240,
+      4160
+    ],
+    "capture_date": "2026:10:17 21:20:06",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-food-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 23110,
+    "sha256": "79bf16e120309153e57930a64a73975a8d22e3866cf4d524a3df3ced211b9a4c",
+    "source": "https://drive.google.com/file/d/1Ppjvww_W48bJlxTjrYKtiWhrPBuuprY5/view",
+    "source_filename": "DSC01279.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      8365,
+      5577
+    ],
+    "capture_date": "2026:08:09 17:36:28",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-food-800.webp",
+    "width": 800,
+    "height": 533,
+    "bytes": 51146,
+    "sha256": "6f8c52ac135c0d11c15237b53efed1453eb1938c3a125e090db8747cd8976276",
+    "source": "https://drive.google.com/file/d/1Ppjvww_W48bJlxTjrYKtiWhrPBuuprY5/view",
+    "source_filename": "DSC01279.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      8365,
+      5577
+    ],
+    "capture_date": "2026:08:09 17:36:28",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-food-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "bytes": 111310,
+    "sha256": "0df7d82d07502b79ece35ed499e8099dd8a0ccb602f13c6f0a0c9352041a747e",
+    "source": "https://drive.google.com/file/d/1Ppjvww_W48bJlxTjrYKtiWhrPBuuprY5/view",
+    "source_filename": "DSC01279.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      8365,
+      5577
+    ],
+    "capture_date": "2026:08:09 17:36:28",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-food-full.webp",
+    "width": 2400,
+    "height": 1600,
+    "bytes": 276620,
+    "sha256": "fd5ecf72a1ca307edd41505242c107f0b2c823027b4fb55c3db34ca27789ae0e",
+    "source": "https://drive.google.com/file/d/1Ppjvww_W48bJlxTjrYKtiWhrPBuuprY5/view",
+    "source_filename": "DSC01279.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      8365,
+      5577
+    ],
+    "capture_date": "2026:08:09 17:36:28",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-drinks-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 26548,
+    "sha256": "a8309e7067ba174e7cea5587cbf186365a1d30d23a0c29eee36f0a274028f823",
+    "source": "https://drive.google.com/file/d/1jsjcghQt81I0EkkQz7K7-dhfmYvUyVD6/view",
+    "source_filename": "DSC01277.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "capture_date": "2026:08:09 17:36:22",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-drinks-800.webp",
+    "width": 800,
+    "height": 533,
+    "bytes": 56128,
+    "sha256": "8dc02fa37e38f6dcd242bce1a1d84681591cbb176f31a64f3b5709765ac39bf3",
+    "source": "https://drive.google.com/file/d/1jsjcghQt81I0EkkQz7K7-dhfmYvUyVD6/view",
+    "source_filename": "DSC01277.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "capture_date": "2026:08:09 17:36:22",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-drinks-1400.webp",
+    "width": 1400,
+    "height": 933,
+    "bytes": 118968,
+    "sha256": "9f50b0d5ef2edef163a82a48c71509e704f32f09a480a4afd6c89a00447bdaee",
+    "source": "https://drive.google.com/file/d/1jsjcghQt81I0EkkQz7K7-dhfmYvUyVD6/view",
+    "source_filename": "DSC01277.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "capture_date": "2026:08:09 17:36:22",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  },
+  {
+    "asset": "assets/grails-brunch-drinks-full.webp",
+    "width": 2400,
+    "height": 1600,
+    "bytes": 342702,
+    "sha256": "b9d808a09da3d92593715a443f2baa855612f2e18723f863623dd9a574a9587b",
+    "source": "https://drive.google.com/file/d/1jsjcghQt81I0EkkQz7K7-dhfmYvUyVD6/view",
+    "source_filename": "DSC01277.jpg",
+    "source_folder": "GRAILS 2026 / FOOD / Grails Brunch Photos",
+    "source_folder_url": "https://drive.google.com/drive/folders/1LsXKUEsCRt0YQB0V6Kc1T55ryqmi63Cm",
+    "original_dimensions": [
+      9504,
+      6336
+    ],
+    "capture_date": "2026:08:09 17:36:22",
+    "capture_date_basis": "Original JPEG EXIF DateTimeOriginal; timezone unspecified",
+    "processing": "EXIF orientation normalized; sRGB conversion if embedded profile; proportionally resized WebP, metadata removed. No generated pixels or subject alterations.",
+    "crop": "Full frame; native approximately 3:2 on desktop and mobile, with captions outside the image."
+  }
+]
