@@ -1397,7 +1397,7 @@ a,button,summary{-webkit-tap-highlight-color:rgba(255,104,99,.22)}
 .scroll-story[data-enhanced="true"] .story-still { visibility: hidden; }
 .scroll-story[data-enhanced="true"] .story-hint { display: inline; }
 @media (min-width: 761px) and (prefers-reduced-motion: no-preference) {
-  .scroll-story[data-story-layout="true"] .story-layout { display: block; min-height: 190vh; padding: 0; position: relative; }
+  .scroll-story[data-story-layout="true"] .story-layout { display: block; min-height: 380vh; padding: 0; position: relative; }
   .scroll-story[data-story-layout="true"] .story-visual { position: sticky; top: max(110px, calc((100svh - min(43vw, 580px)) / 2)); width: 57%; margin-left: auto; aspect-ratio: 1.18; }
   .scroll-story[data-story-layout="true"] .story-chapters { position: absolute; inset: 0 auto 0 0; width: 37%; display: flex; flex-direction: column; justify-content: space-around; gap: 0; }
   .scroll-story[data-story-layout="true"] .story-chapter { opacity: .5; border-left-color: #424247; transition: opacity .3s, border-color .3s; }
@@ -1415,7 +1415,7 @@ a,button,summary{-webkit-tap-highlight-color:rgba(255,104,99,.22)}
   .story-chapter { padding-left: 15px; }
   .story-chapter h3 { font-size: 25px; margin-top: 5px; }
   .story-chapter p { max-width: none; }
-  .scroll-story[data-story-layout="true"] .story-layout { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 160svh; align-items: start; gap: 0; }
+  .scroll-story[data-story-layout="true"] .story-layout { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 320svh; align-items: start; gap: 0; }
   .scroll-story[data-story-layout="true"] .story-visual { grid-area: 1 / 1; position: sticky; top: 94px; margin-bottom: 25px; }
   .scroll-story[data-story-layout="true"] .story-chapters { grid-area: 1 / 1; position: sticky; top: calc(114px + (100vw - 50px) / 1.12); margin-top: calc((100vw - 50px) / 1.12 + 20px); display: grid; align-self: start; pointer-events: none; }
   .scroll-story[data-story-layout="true"] .story-chapter { grid-area: 1 / 1; opacity: 0; background: #111113; padding-block: 6px 16px; transition: opacity .25s; }
