@@ -1,4 +1,4 @@
-import {shouldAnimate} from './scroll-story-core.js?v=1';
+import {shouldAnimate} from './scroll-story-core.js?v=2';
 
 const section = document.querySelector('.scroll-story');
 if (section && 'IntersectionObserver' in window) {
@@ -31,7 +31,7 @@ if (section && 'IntersectionObserver' in window) {
   const updateControl = () => {
     button.hidden = reduced.matches || Boolean(connection?.saveData) || failed;
     button.setAttribute('aria-pressed', String(preference === 'on' && !button.hidden));
-    label.textContent = `Animation: ${preference === 'on' ? 'on' : 'off'}`;
+    label.textContent = `Photo animation: ${preference === 'on' ? 'on' : 'off'}`;
     button.querySelector('path').setAttribute('d', preference === 'on' ? 'M4 3h3v10H4zm5 0h3v10H9z' : 'M5 2v12l9-6z');
     skip.firstChild.textContent = section.dataset.storyLayout ? 'Skip the animation ' : 'See the experience ';
   };
@@ -59,7 +59,7 @@ if (section && 'IntersectionObserver' in window) {
     pending = true;
     try {
       // This import and its self-hosted renderer never enter the critical hero path.
-      const {createStoryScene} = await import('./scroll-story-scene.js?v=1');
+      const {createStoryScene} = await import('./scroll-story-scene.js?v=2');
       if (disposed || !allowed()) return;
       controller = createStoryScene(section, {onFailure: fail});
       controller.setVisible(visible);

@@ -76,6 +76,12 @@ test('caps desktop rendering and independently lowers the budget for each constr
   const extremeDpr = motionBudget({ ...desktop, dpr: 8 });
   assert.ok(extremeDpr.pixelRatio <= 1.5);
   assert.equal(motionBudget({ ...desktop, saveData: true }).count, 0);
+  assert.equal(motionBudget({ ...desktop, width: 390 }).count, 1800);
+  for (const constraint of [{deviceMemory:2},{hardwareConcurrency:2}]) {
+    const limited=motionBudget({...desktop,...constraint});
+    assert.equal(limited.count,1200);
+    assert.equal(limited.pixelRatio,1);
+  }
 });
 
 test('produces repeatable, independently seeded GPU attributes without allocating shared arrays', () => {

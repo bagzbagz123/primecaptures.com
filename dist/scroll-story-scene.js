@@ -1,5 +1,5 @@
 import {WebGLRenderer, Scene, PerspectiveCamera, BufferGeometry, BufferAttribute, ShaderMaterial, Points, Vector2, Group, Mesh, MeshBasicMaterial, PlaneGeometry, BoxGeometry, TextureLoader, SRGBColorSpace, AdditiveBlending, gsap, ScrollTrigger} from './vendor/scroll-vendor-v1.js';
-import {clamp01, createParticleTargets, motionBudget} from './scroll-story-core.js?v=1';
+import {clamp01, createParticleTargets, motionBudget} from './scroll-story-core.js?v=2';
 
 const vertexShader = `
   attribute vec3 aLens;

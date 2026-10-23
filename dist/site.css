@@ -520,8 +520,63 @@ a,button,summary{-webkit-tap-highlight-color:rgba(255,104,99,.22)}
 @media(prefers-contrast:more){.analytics-notice,.analytics-actions button{border-color:#b0b0b7}}
 
 /* motion.css */
-/* HIG-inspired web feedback. Durations are design choices, not Apple mandates. */
+/* Brief control feedback and optional cinematic scenes. */
 .moment:hover img { transform: none; }
+
+/* Native scroll timelines on capable desktops; short one-time entrances elsewhere.
+   Stable parent timelines avoid measuring the animated image's moving bounds. */
+@supports (animation-timeline: view()) and (animation-range: entry 0% entry 100%) {
+  @media (min-width: 761px) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .hero { view-timeline: --opening-scene block; }
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .hero-image {
+      animation: opening-camera 1ms linear both;
+      animation-timeline: --opening-scene;
+      animation-range: exit 0% exit 100%;
+    }
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .hero::after {
+      content: ''; position: absolute; inset: 0; z-index: 0;
+      pointer-events: none; background: #101012;
+      animation: opening-dissolve 1ms linear both;
+      animation-timeline: --opening-scene;
+      animation-range: exit 0% exit 90%;
+    }
+    .hero-bottom { z-index: 1; }
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .portfolio-opening { view-timeline: --room-scene block; }
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .portfolio-opening .photo-open {
+      animation: room-expand 1ms linear both;
+      animation-timeline: --room-scene;
+      animation-range: entry 0% entry 95%;
+      transform-origin: center;
+    }
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .portfolio-opening img {
+      animation: room-focus 1ms linear both;
+      animation-timeline: --room-scene;
+      animation-range: entry 0% entry 95%;
+    }
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .portfolio-opening:focus-within .photo-open,
+    html[data-scene-motion="full"][data-scroll-scenes="native"] .portfolio-opening:focus-within img { animation: none; }
+    @keyframes opening-camera {
+      from { transform: scale(1.055) translateY(0); }
+      to { transform: scale(1.025) translateY(4%); }
+    }
+    @keyframes opening-dissolve { from { opacity: 0; } to { opacity: .65; } }
+    @keyframes room-expand {
+      from { transform: translateY(36px) scale(.94); opacity: .78; }
+      to { transform: none; opacity: 1; }
+    }
+    @keyframes room-focus { from { transform: scale(1.08); } to { transform: none; } }
+  }
+}
+
+/* Hold the partner portrait beside the story, with no extra scrolling distance.
+   Touch and shorter viewports retain the simple document layout. */
+@media (min-width: 1100px) and (min-height: 820px) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  html[data-scene-motion="full"] .venue-story-main {
+    position: sticky; top: max(110px, var(--nav-clearance, 110px));
+    max-width: min(100%, calc((100svh - 190px) * .8));
+    justify-self: end; width: 100%;
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .button {

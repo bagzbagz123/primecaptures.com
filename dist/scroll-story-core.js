@@ -3,7 +3,8 @@ export const clamp01 = value => Number.isFinite(value) ? Math.min(1, Math.max(0,
 
 export function motionBudget({width = 0, dpr = 1, coarse = false, saveData = false, deviceMemory, hardwareConcurrency} = {}) {
   const modest = width < 761 || coarse || (deviceMemory > 0 && deviceMemory <= 4) || (hardwareConcurrency > 0 && hardwareConcurrency <= 4);
-  return {count: saveData ? 0 : modest ? 2400 : 6800, pixelRatio: Math.min(modest ? 1.25 : 1.5, Math.max(1, Number.isFinite(dpr) ? dpr : 1))};
+  const constrained = (deviceMemory > 0 && deviceMemory <= 2) || (hardwareConcurrency > 0 && hardwareConcurrency <= 2);
+  return {count: saveData ? 0 : constrained ? 1200 : modest ? 1800 : 6800, pixelRatio: Math.min(constrained ? 1 : modest ? 1.25 : 1.5, Math.max(1, Number.isFinite(dpr) ? dpr : 1))};
 }
 
 export function shouldAnimate({reducedMotion, preference, saveData, hidden, visible, failed} = {}) {
