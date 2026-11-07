@@ -855,6 +855,22 @@
     "processing": "HTML/CSS composition rendered at 1200 by 630 with the current outlined circular-lens Prime Capture logo (v6 refined original, reverse white/red), existing self-hosted DM Sans, dark/red styling and unchanged photographer photo. Only logo composition changed from the prior sharing card. Photo cover framing remains 50% horizontal / 27% vertical with dark readability overlay. Progressive RGB JPEG quality 90, 4:4:4; EXIF/GPS removed; existing photo master preserved. No generated photography or retouching."
   },
   {
+    "asset": "assets/prime-capture-social-v3.jpg",
+    "source": "https://www.primecaptures.com/cdn/shop/files/theodor%20photographer%20night.jpg",
+    "source_asset": "assets/photographer-night.webp",
+    "original_dimensions": [
+      1886,
+      1447
+    ],
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 98505,
+    "placement": "Open Graph and large social sharing cards",
+    "processing": "Replaced the logo in the existing 1200 by 630 sharing-card composition with the approved red camera lockup. The photo crop, shading, and copy were retained. Progressive RGB JPEG quality 90, 4:4:4 with no EXIF/GPS."
+  },
+  {
     "asset": "assets/workstation-480.webp",
     "source": "Owner-provided attachment",
     "source_filename": "IMG_3668.WEBP",

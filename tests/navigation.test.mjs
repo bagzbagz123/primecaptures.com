@@ -56,7 +56,8 @@ test('native scrolling keeps the matching section link current, including the ke
   assert.deepEqual(page.currentLinks(), []);
 });
 
-test('the header and footer use the static logo artwork', async () => {
+test('the header, footer and favicon use the static red camera artwork', async () => {
   const html = await readFile(new URL('../dist/index.html', import.meta.url), 'utf8');
-  assert.equal((html.match(/<img class="brand-logo" src="assets\/prime-capture-logo\.svg"/g) || []).length, 2);
+  assert.ok(html.includes('<link rel="icon" href="assets/prime-capture-camera-icon.svg" type="image/svg+xml">'));
+  assert.equal((html.match(/<img class="brand-logo" src="assets\/prime-capture-camera-logo\.svg"/g) || []).length, 2);
 });
