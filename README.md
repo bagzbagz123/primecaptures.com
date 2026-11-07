@@ -28,8 +28,6 @@ The local preview runs at `http://127.0.0.1:4174`. Email delivery is optional fo
 
 The site includes venue benefits, guest and food photography, a Copper 29 partner story, product and workstation examples, optional video, expandable earnings estimates and a sample report, and inquiry/photo-support forms. Website analytics is optional and consent gated.
 
-The header and footer use the original Prime Capture logo at the top and bottom of the page. While scrolling, it spins and morphs into three aperture blades, fully closing halfway down before reopening. One blade uses the red brand accent; two are white. Reduced-motion mode preserves the static original mark.
-
 ## Deployment
 
 This repository's `main` branch is connected to the existing Vercel project `primecaptures-com`. Vercel runs `npm run build` and serves `dist/`; API handlers run as Vercel functions. Configure production delivery credentials in Vercel rather than in source control.

@@ -190,9 +190,6 @@ let galleryLinks = [];
 const galleryDialog = document.querySelector('#gallery-dialog');
 const galleryImage = document.querySelector('#gallery-image');
 const galleryStatus = document.querySelector('#gallery-status');
-const galleryMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-let galleryAnimation;
-let galleryDirection = 1;
 let galleryIndex = 0;
 let galleryThumbnails = [];
 function selectGallery(group) {
@@ -219,31 +216,15 @@ function selectGallery(group) {
   });
 }
 
-function photographReady() {
-  galleryImage.removeAttribute('aria-busy');
-  if (!galleryDialog.open || galleryMotion.matches || !galleryImage.animate) return;
-  galleryAnimation?.cancel();
-  galleryAnimation = galleryImage.animate([
-    { transform: `translateX(${galleryDirection * 8}px)` },
-    { transform: 'translateX(0)' }
-  ], { duration: 220, easing: 'cubic-bezier(.2,.8,.2,1)' });
-}
-galleryImage.addEventListener('load', photographReady);
+galleryImage.addEventListener('load', () => galleryImage.removeAttribute('aria-busy'));
 galleryImage.addEventListener('error', () => {
   galleryImage.removeAttribute('aria-busy');
   galleryStatus.textContent = 'This photograph couldn’t load. Please choose another photo or try again.';
   galleryStatus.hidden = false;
 });
-galleryMotion.addEventListener('change', event => {
-  if (event.matches) galleryAnimation?.cancel();
-});
-galleryDialog.addEventListener('close', () => galleryAnimation?.cancel());
 
 function showPhotograph(index) {
-  const previous = galleryIndex;
   galleryIndex = (index + galleryLinks.length) % galleryLinks.length;
-  galleryDirection = index < previous ? -1 : 1;
-  galleryAnimation?.cancel();
   const link = galleryLinks[galleryIndex];
   galleryImage.dataset.orientation = link.dataset.galleryOrientation || 'landscape';
   galleryStatus.hidden = true;

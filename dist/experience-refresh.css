@@ -1,4 +1,4 @@
-/* Authentic guest photographs and a compact food/drink portfolio pair. */
+/* Guest photography and the food and drink portfolio. */
 .experience-photo,
 .hospitality-photo { margin: 0; min-width: 0; }
 .experience-photo .photo-open,
@@ -50,12 +50,28 @@
 .hospitality-heading h3 { font-size: 28px; letter-spacing: -.8px; }
 .hospitality-heading p { max-width: 340px; color: var(--muted); font-size: 14px; line-height: 1.6; }
 .hospitality-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.grails-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 24px);
+  margin-top: 28px;
+}
+.grails-gallery .photo-open {
+  position: relative;
+  inset: auto;
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.grails-gallery .photo-open:first-child { grid-column: span 2; grid-row: span 2; }
+.grails-gallery img { width: 100%; height: auto; }
 @media (max-width: 760px) {
   .hospitality-portfolio { margin-top: 38px; padding-top: 28px; }
   .hospitality-heading { display: block; margin-bottom: 20px; }
   .hospitality-heading h3 { font-size: 23px; }
   .hospitality-heading p { margin-top: 10px; }
   .hospitality-grid { grid-template-columns: 1fr; gap: 28px; }
+  .grails-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .experience-photo .photo-open,
   .hospitality-photo .photo-open { border-radius: 16px; }
   .experience-photo figcaption,
