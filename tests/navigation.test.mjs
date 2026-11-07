@@ -18,8 +18,8 @@ function navigationPage() {
   });
   const sections = [
     { id: 'home', top: 0, bottom: 600 },
-    { id: 'from-moment-to-memory', parent: 'experience', top: 600, bottom: 1000 },
-    { id: 'experience', top: 1000, bottom: 1500 },
+    { id: 'experience', top: 600, bottom: 1000 },
+    { id: 'keepsakes', parent: 'experience', top: 1000, bottom: 1500 },
     { id: 'partnership', top: 1500, bottom: 2000 },
   ].map(({ id, parent, top, bottom }) => ({
     id, dataset: { navSection: parent },
@@ -43,7 +43,7 @@ function navigationPage() {
   };
 }
 
-test('native scrolling keeps the matching section link current, including the nested story', () => {
+test('native scrolling keeps the matching section link current, including the keepsakes section', () => {
   const page = navigationPage();
   assert.deepEqual(page.currentLinks(), []);
   page.scroll(650);

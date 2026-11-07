@@ -40,7 +40,6 @@
 .venue-fit-number { padding-top: 2px; color: #ff9b96; font-size: .75rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
 .venue-fit-list strong { display: block; color: #f5f5f7; font-size: .9375rem; line-height: 1.5; font-weight: 600; }
 .contact .venue-fit-list p { margin: 6px 0 0; color: #cacacf; font-size: .9375rem; line-height: 1.6; }
-.contact .venue-fit-note { margin: 4px 0 0; padding-top: 19px; border-top: 1px solid #ffffff1c; color: #cacacf; font-size: .875rem; line-height: 1.65; }
 @media (max-width: 900px) {
   .contact-with-fit .contact-inner {
     grid-template-columns: minmax(0, 1fr);
@@ -63,7 +62,7 @@
   .contact-with-fit .contact-assurances { column-gap: 10px; }
 }
 @media (prefers-contrast: more) {
-  .venue-fit-guide, .venue-fit-list li, .contact .venue-fit-note { border-color: #92929a; }
+  .venue-fit-guide, .venue-fit-list li { border-color: #92929a; }
   .venue-fit-number, .venue-fit-kicker { color: #ffc3bf; }
-  .contact .venue-fit-list p, .contact .venue-fit-note { color: #e5e5e9; }
+  .contact .venue-fit-list p { color: #e5e5e9; }
 }
